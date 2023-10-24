@@ -1,0 +1,19 @@
+.shop-link {
+  color: rgb(255, 0, 111);
+  font-size: xx-large;
+}
+.shop-link:hover {
+  font-size: 35px;
+  color: chocolate;
+  transition: 1s ease-in-out;
+}
+
+.shopping-cart {
+  transition: transform 2.2s; /* Add a smooth transition effect */
+  color: #20d55f;
+}
+
+.shopping-cart:hover {
+  transform: scale(1.4); /* Increase the size when hovered (adjust as needed) */
+  color: rgb(140, 11, 225) !important;
+}
